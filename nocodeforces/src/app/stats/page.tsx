@@ -36,7 +36,7 @@ export default function StatsDashboard() {
           <div className="space-y-2 text-center">
             <div className="flex items-center justify-center gap-2 text-xl">
               <Code2 className="text-[#00BCD4]" />
-              <span className="font-bold text-[#B3E5FC]">Total Solved:</span>
+              <span className="font-bold text-[#B3E5FC]">Total Correct Submissions:</span>
               <span className="text-[#FFC107]">{ under1100 + under1600 + under2100 + above2000 } questions</span>
             </div>
             <div className="flex items-center justify-center gap-2 text-xl">
@@ -57,7 +57,7 @@ export default function StatsDashboard() {
             </div>
             <div className="text-4xl font-bold text-[#FFC107]">
                 {under1100}
-                <span className='ml-2 font-bold text-white text-sm'>questions solved</span>
+                <span className='ml-2 font-bold text-white text-sm'>correct submissions</span>
             </div>
             <div className="text-sm font-bold text-[#B3E5FC]">{under1100 * 15} minutes spent</div>
           </Card>
@@ -70,7 +70,7 @@ export default function StatsDashboard() {
             </div>
             <div className="text-4xl font-bold text-[#FFC107]">
                 {under1600}
-                <span className='ml-2 font-bold text-white text-sm'>questions solved</span>
+                <span className='ml-2 font-bold text-white text-sm'>correct submissions</span>
             </div>
             <div className="text-sm font-extrabold text-[#B3E5FC]">{under1600 * 25} minutes spent</div>
           </Card>
@@ -83,7 +83,7 @@ export default function StatsDashboard() {
             </div>
             <div className="text-4xl font-bold text-[#FFC107]">
                 {under2100}
-                <span className='ml-2 font-bold text-white text-sm'>questions solved</span>
+                <span className='ml-2 font-bold text-white text-sm'>correct submissions</span>
             </div>
             <div className="text-sm font-bold text-[#B3E5FC]">{under2100 * 40} minutes spent</div>
           </Card>
@@ -96,7 +96,7 @@ export default function StatsDashboard() {
             </div>
             <div className="text-4xl font-bold text-[#FFC107]">
                 {above2000}
-                <span className='ml-2 font-bold text-white text-sm'>questions solved</span>
+                <span className='ml-2 font-bold text-white text-sm'>correct submissions</span>
             </div>
             <div className="text-sm font-bold text-[#B3E5FC]">{above2000 * 60} minutes spent</div>
           </Card>
